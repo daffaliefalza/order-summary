@@ -32,18 +32,12 @@ select {
     --fw-900: 900;
 }
 
-body, 
-html {
-    height: 100%;
-}
 
 body {
-  line-height: 1.5;
   font-family: var(--font-family);
   background-image: url('images/pattern-background-desktop.svg');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
   background-color: var(--pr-paleblue);
   display: grid;
   place-content: center;
